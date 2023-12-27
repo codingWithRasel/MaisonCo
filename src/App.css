@@ -1,0 +1,21 @@
+.anim {
+  animation: anim 10s infinite;
+}
+@keyframes anim {
+  0% {
+    background-image: url("./assets/Image/slide-home1-1.jpg");
+ 
+  }
+
+  100% {
+    background-image: url("./assets/Image/slide-home1-2.jpg");
+  }
+
+
+}
+.res {
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  grid-auto-rows: 250px;
+  grid-auto-flow: dense;
+}
